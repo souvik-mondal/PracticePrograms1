@@ -94,6 +94,7 @@ public class Question9VampireNumberInRange {
 		else {
 			System.out.println("Invalid output.");
 		}
+	sc.close();
 	}
 
 }

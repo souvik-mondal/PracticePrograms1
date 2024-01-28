@@ -10,6 +10,7 @@ public class Question2CompositeFibonacci {
 		for(int i=1;i<=n;i++) {
 			display(i);
 		}
+		sc.close();
 	}
 	public void display(int num) {
 		if(check_Composite(num) && chk_Fibo(num)==1) {
